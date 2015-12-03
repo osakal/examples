@@ -1,0 +1,20 @@
+# Files/directories with these names will be ignored regardless how deep they are.
+.classpath
+.idea
+.project
+.settings
+.springBeans
+cloudex.iml
+build
+target
+test-output
+classes
+
+# Concrete paths go here.
+cloudex-core/cloudex-core.iml
+cloudex-web/cloudex-web.iml
+cloudex-test/cloudex-test.iml
+cloudex-test/src/main/resources/local.config.properties
+cloudex-test-config/cloudex-test-config.iml
+git-describe-maven-plugin/git-describe-maven-plugin.iml
+http-request-maven-plugin/http-request-maven-plugin.iml
